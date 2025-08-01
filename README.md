@@ -66,20 +66,20 @@ b.  **Obtén tus Credenciales de Supabase:**
 c.  **Configura las Variables de Entorno:**
     Crea un archivo `.env.local` en la raíz de tu proyecto y añade tus credenciales de Supabase:
 
-    ```env
-    NEXT_PUBLIC_SUPABASE_URL="[TU_SUPABASE_PROJECT_URL]"
-    NEXT_PUBLIC_SUPABASE_ANON_KEY="[TU_SUPABASE_ANON_KEY]"
-    ```
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL="[TU_SUPABASE_PROJECT_URL]"
+   NEXT_PUBLIC_SUPABASE_ANON_KEY="[TU_SUPABASE_ANON_KEY]"
+   ```
 
 d.  **Ejecuta los Scripts SQL:**
     Los scripts para crear y poblar las tablas de `marketing_services`, `marketing_projects` y `contact_info` se encuentran en la carpeta `scripts/`.
     **Copia el contenido de cada uno de estos archivos (`create-marketing-services-table.sql`, `create-marketing-projects-table.sql`, `create-contact-info-table.sql`, `insert-new-marketing-services.sql`, `update-projects-with-company-names.sql`) y ejecútalos manualmente en el "SQL Editor" de tu panel de Supabase.**
 
-    *   `scripts/create-marketing-services-table.sql`
-    *   `scripts/create-marketing-projects-table.sql`
-    *   `scripts/create-contact-info-table.sql`
-    *   `scripts/insert-new-marketing-services.sql` (para añadir los dos servicios extra)
-    *   `scripts/update-projects-with-company-names.sql` (para añadir los nombres de empresa a los proyectos existentes)
+   *   `scripts/create-marketing-services-table.sql`
+   *   `scripts/create-marketing-projects-table.sql`
+   *   `scripts/create-contact-info-table.sql`
+   *   `scripts/insert-new-marketing-services.sql` (para añadir los dos servicios extra)
+   *   `scripts/update-projects-with-company-names.sql` (para añadir los nombres de empresa a los proyectos existentes)
 
 ### 4. Configurar Groq (para la IA)
 
@@ -90,9 +90,9 @@ a.  **Obtén tu API Key de Groq:**
 b.  **Configura la Variable de Entorno:**
     Añade tu API Key de Groq a tu archivo `.env.local`:
 
-    ```env
-    GROQ_API_KEY="[TU_GROQ_API_KEY]"
-    ```
+   ```env
+   GROQ_API_KEY="[TU_GROQ_API_KEY]"
+   ```
 
 ### 5. Ejecutar el Proyecto
 
